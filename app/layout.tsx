@@ -22,7 +22,7 @@ export default function RootLayout({children,}: Readonly<{
 }>) {
   return (
     <html lang="en">
-    <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}>
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}>
     {children}
     </body>
     </html>
