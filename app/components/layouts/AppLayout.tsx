@@ -6,7 +6,7 @@ export default function AppLayout({children}: { children: ReactNode }) {
   return (
     <>
       <Header/>
-      <div className='container max-w-4xl mx-auto bg-gray-400'>
+      <div className='container max-w-4xl mx-auto'>
         <main className='px-6 py-12'>
           {children}
         </main>
