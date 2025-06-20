@@ -5,7 +5,7 @@ interface Props {
 export default function GithubSvg({className = ''}: Props) {
   return (
     <>
-      <svg viewBox="0 0 496 512"
+      <svg viewBox="0 -1 496 512"
            className={className}
       >
         <path
