@@ -8,7 +8,7 @@ export default function Project() {
   const router = useRouter();
 
   return (
-    <section className=''>
+    <section className='mb-16'>
       <p className='text-3xl font-bold mb-6'>프로젝트</p>
       <div className='grid grid-cols-2 gap-6'>
         <article
@@ -59,7 +59,7 @@ export default function Project() {
         <article
           className='bg-gray-100 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300'>
           <Image
-            src="https://plus.unsplash.com/premium_photo-1749723951265-6e289d2a8113?q=80&w=600"
+            src="https://images.unsplash.com/photo-1750056393331-82e69d28c9d9?q=80&w=600"
             alt="프로젝트1 이미지"
             width="600"
             height="600"
@@ -104,7 +104,7 @@ export default function Project() {
         <article
           className='bg-gray-100 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300'>
           <Image
-            src="https://plus.unsplash.com/premium_photo-1749723951265-6e289d2a8113?q=80&w=600"
+            src="https://plus.unsplash.com/premium_photo-1749723949725-18b9751a59f0?q=80&w=600"
             alt="프로젝트1 이미지"
             width="600"
             height="600"
@@ -149,7 +149,7 @@ export default function Project() {
         <article
           className='bg-gray-100 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300'>
           <Image
-            src="https://plus.unsplash.com/premium_photo-1749723951265-6e289d2a8113?q=80&w=600"
+            src="https://images.unsplash.com/photo-1743841727503-dc5582e348f3?q=80&w=600"
             alt="프로젝트1 이미지"
             width="600"
             height="600"
